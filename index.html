@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santuario de Gracia | Para Mi Futura Abogada</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Dancing+Script:wght@600&family=Montserrat:wght@200;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <audio id="musica-fondo" loop>
+        <source src="cancion.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="nebulosa"></div>
+    <div class="stars-container" id="stars"></div>
+    <div id="falling-lights-container"></div> <div id="rain-container"></div> <div class="switch-container">
+        <label class="switch-label">¿Día difícil? ☁️</label>
+        <label class="switch">
+            <input type="checkbox" id="bad-day-toggle">
+            <span class="slider round"></span>
+        </label>
+    </div>
+
+    <button id="btn-bendicion" title="Recibe una bendición">💜</button>
+    
+    <div id="modal-bendicion" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="texto-bendicion"></p>
+        </div>
+    </div>
+
+    <header class="v-header">
+        <div class="header-content">
+            <p class="pre-title">Proverbios 31:25</p>
+            <h1 class="glitch" data-text="FUERZA Y HONOR">FUERZA Y HONOR</h1>
+            <p class="intro-p">Son su vestidura; y se ríe de lo por venir.</p>
+        </div>
+    </header>
+
+    <section class="pacto-section">
+        <div class="pacto-container">
+            <h2 class="titulo-pacto">El Acuerdo de Oración</h2>
+            <p class="subtitulo-pacto">En la tierra hay contratos, en el Cielo hay pactos.</p>
+            
+            <div class="iconos-pacto" id="zona-pacto" title="Haz doble clic">
+                <span class="mano">🫱🏼‍🫲🏾</span>
+            </div>
+            
+            <div class="pacto-instruccion">( Doble clic para confirmar )</div>
+
+            <div id="versiculos-ocultos" class="hidden">
+                <div class="versiculo-card">
+                    <p><strong>Romanos 5:8</strong><br>Mas Dios muestra su amor para con nosotros, en que siendo aún pecadores, Cristo murió por nosotros.</p>
+                </div>
+                <div class="versiculo-card">
+                    <p><strong>Mateo 24:27</strong><br>Porque como el relámpago que sale del oriente y se muestra hasta el occidente, así será también la venida del Hijo del Hombre.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container">
+        <div class="card-glass" data-tilt>
+            <div class="card-img" style="background-image: url('img/img02.jpeg');"></div>
+            <div class="card-text">
+                <span class="badge">⚖️ Ley & Gracia</span>
+                <h3>Defensora del Bien</h3>
+                <p>Tu carrera no es solo leyes, es tu ministerio. Admiro tu capacidad para estudiar horas extras sabiendo que Dios guía tu justicia.</p>
+                <div class="quote-box">"Juzga con justicia..." - Prov. 31:9</div>
+            </div>
+        </div>
+
+        <div class="card-glass reverse" data-tilt>
+            <div class="card-img" style="background-image: url('img/img01.jpeg');"></div>
+            <div class="card-text">
+                <span class="badge">✨ Belleza Real</span>
+                <h3>Un Corazón que Teme a Dios</h3>
+                <p>Eres un año mayor, un año más sabia y mil veces más hermosa. Tu belleza no es externa, es la luz de Cristo que brilla en tus ojos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cifrado-section">
+        <div class="terminal-box">
+            <div class="terminal-header"></div> <div class="terminal-body">
+                <p>> SISTEMA: PROTEGIDO 🔒</p>
+                <p>> Ingrese la llave del corazón:</p>
+                <input type="text" id="input-llave" placeholder="FECHA O CLAVE">
+                <button id="btn-desencriptar">PRESS START</button>
+            </div>
+        </div>
+    </section>
+
+    <div id="modal-carta" class="modal-carta">
+        <div class="carta-content">
+            <span class="close-carta">&times;</span>
+            <h2>💜 Acceso Concedido 💜</h2>
+            <p class="cuerpo-carta">
+                Mi amada futura abogada,<br><br>
+                Si estás leyendo esto, recordaste nuestra fecha especial. 
+                Quería dejar este pequeño rincón digital solo para decirte que, aunque el código se puede borrar, 
+                lo que siento por ti está escrito en un servidor eterno.<br><br>
+                Eres mi línea de código favorita en un mundo lleno de errores. 
+                Te amo más allá de la lógica.<br><br>
+                Con amor, tu Ingeniero.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-line"></div>
+        <p>Desarrollado con el código del corazón 👨‍💻💜👩‍⚖️</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
