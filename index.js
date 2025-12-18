@@ -141,6 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (event.target == modalCarta) modalCarta.style.display = "none";
     }
 
+    
     // EFECTO LLUVIA CORAZONES
     function crearLluviaCorazones() {
         const rainContainer = document.getElementById('rain-container');
